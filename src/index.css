@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card{
+  transition: all .5s ease-in-out;
+}
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ 
+  scale: 1.02;
+
+}
